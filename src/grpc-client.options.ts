@@ -6,8 +6,8 @@ export const grpcClientOptions: ClientOptions = {
   options: {
     package: ['hero', 'user'],
     protoPath: [
-        join(__dirname, './hero/hero.proto'),
-        join(__dirname, './user/user.proto'),
+        join(__dirname, '../proto/hero.proto'),
+        join(__dirname, '../proto/user.proto'),
       ],
   },
 };
